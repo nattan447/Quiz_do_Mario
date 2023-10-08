@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="cabecario">
+      <div id="elemnts">
+        <img src="imgs/math.jpg" height="100px" />
+        <img src="imgs/planet.png" height="100px" />
+        <img src="imgs/lampada.png" id="lampada" height="200px" />
+        <img src="imgs/chemistry.jpg" height="100px" />
+      </div>
+      <h1>Quiz</h1>
+    </header>
+    <main class="quiz">
+      <div id="part1">
+        <h3>qual a melhor linguagem de programação</h3>
+        <input type="radio" name="p1" value="a" />PHP
+        <input type="radio" name="p1" value="b" />C#
+        <input type="radio" name="p1" value="c" />javascript
+        <input type="radio" name="p1" value="d" />java
+      </div>
+      <div id="part2">
+        <h3>quem vence em uma luta?</h3>
+        <input type="radio" name="p2" value="a" />macaco
+        <input type="radio" name="p2" value="b" />canguru
+        <input type="radio" name="p2" value="c" />humano
+        <input type="radio" name="p2" value="d" />crocodilo
+      </div>
+      <div id="part3">
+        <h3>" O estado sou eu!". Quem disse essa frase</h3>
+        <input type="radio" name="p3" value="a" />Bolsonaro
+        <input type="radio" name="p3" value="b" />Luís XIV
+        <input type="radio" name="p3" value="c" />Jesus cristo
+        <input type="radio" name="p3" value="d" />napoleão
+      </div>
+      <div id="part4">
+        <h3>
+          " quem foi o homem que tacou o terror na Europa na época do
+          imperialismo? "
+        </h3>
+        <input type="radio" name="p4" value="a" />Napoleão
+        <input type="radio" name="p4" value="b" />Hitler
+        <input type="radio" name="p4" value="c" />Bolsonaro
+        <input type="radio" name="p4" value="d" />Lula
+      </div>
+
+      <div id="part5">
+        <h3>quem é mais calvo?</h3>
+        <input type="radio" name="p5" value="a" />Israel
+        <input type="radio" name="p5" value="b" /> Anselmo
+        <input type="radio" name="p5" value="c" /> vegeta
+        <input type="radio" name="p5" value="d" /> gevita
+      </div>
+      <div id="part6">
+        <h3>Qual é o maior planeta do nosso sistema solar?</h3>
+        <input type="radio" name="p6" value="a" />jupter
+        <input type="radio" name="p6" value="b" /> Saturno
+        <input type="radio" name="p6" value="c" /> lua
+        <input type="radio" name="p6" value="d" /> marte
+      </div>
+      <div id="part7">
+        <h3>Qual é o elemento mais eletronegativo da tabéla periódica</h3>
+        <input type="radio" name="p7" value="a" />enxofre
+        <input type="radio" name="p7" value="b" /> Fluor
+        <input type="radio" name="p7" value="c" />silico
+        <input type="radio" name="p7" value="d" /> bromo
+      </div>
+      <div id="part8">
+        <h3>qual a primeira lei de Newton?</h3>
+        <input type="radio" name="p8" value="a" />inércia
+        <input type="radio" name="p8" value="b" /> ação e reação
+        <input type="radio" name="p8" value="c" /> força resultante
+        <input type="radio" name="p8" value="d" /> teorema de pitágoras
+      </div>
+      <div id="part9">
+        <h3>
+          o que aconteceria se um buraco negro ocupasse a massa,tamanho e
+          distância do sol,no sistema solar?
+        </h3>
+        <input type="radio" name="p9" value="a" />seriamos sugados
+        <input type="radio" name="p9" value="b" /> nada
+        <input type="radio" name="p9" value="c" /> explodiria tudo
+        <input type="radio" name="p9" value="d" /> rodariamos a 10000km/h
+      </div>
+      <div id="part10">
+        <h3>Quem descobriou o brasil</h3>
+        <input type="radio" name="p10" value="a" />Bolsonaro
+        <input type="radio" name="p10" value="b" /> Pedro alvares cabral
+        <input type="radio" name="p10" value="c" /> Dom pedro
+        <input type="radio" name="p10" value="d" />nenhuma alternativa
+      </div>
+
+      <button id="btn" onclick="resultado()">ver resultado</button>
+    </main>
+  </body>
+</html>

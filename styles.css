@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+#elemnts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#lampada {
+  margin-right: 240px;
+}
+header h1 {
+  text-align: center;
+}
+
+.quiz {
+  margin-top: 100px;
+  padding: 70px;
+  background-color: aliceblue;
+  text-align: center;
+}
+#part1 {
+  margin-bottom: 40px;
+}
+#part2 {
+  margin-bottom: 40px;
+}
+
+#part3 {
+  margin-bottom: 40px;
+}
+
+#part4 {
+  margin-bottom: 40px;
+}
+
+#part5 {
+  margin-bottom: 40px;
+}
+#part6 {
+  margin-bottom: 40px;
+}
+#part7 {
+  margin-bottom: 40px;
+}
+#part8 {
+  margin-bottom: 40px;
+}
+#part9 {
+  margin-bottom: 40px;
+}
+#part10 {
+  margin-bottom: 40px;
+}
+#btn {
+  height: 30px;
+  width: 100px;
+  background-color: aqua;
+  border-style: none;
+  border-radius: 7px;
+}
+
+#btn:hover {
+  background-color: blue;
+}
