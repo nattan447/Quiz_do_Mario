@@ -11,3 +11,4 @@ If you're having problems, you can tweet to us [@expo](https://twitter.com/expo)
 ols/61) or [Discord](https://chat.expo.dev/).
 
 Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![2023-10-08 (1)](https://github.com/nattan447/Quiz_do_Mario/assets/125780771/614baa76-520c-4a6a-a399-022f10aa2804)
